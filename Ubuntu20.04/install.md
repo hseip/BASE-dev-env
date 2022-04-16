@@ -6,6 +6,20 @@ sudo apt install git
 git config --global user.name "FIRST_NAME LAST_NAME"
 git config --global user.email "MY_NAME@example.com"
 
+### Github
+Create a Github account at github.com
+Enable 2FA. Use Authenticator App
+Create a personal access token:
+Settings -> Developer Settings
+
+Create a personal access token to push code to Github by clicking "Generate new token"
+Select boxes for:
+repo
+write packages
+
+Click the "Generate Token" button. Save the generated token in a safe location. The token is shown only once.
+
+
 ### Install VSCode:
 sudo snap install --classic code
 
@@ -118,7 +132,6 @@ npm install --global yarn
 
 ### install Quasar/Vue3
 npm i -g @quasar/cli
-
 
 
 
