@@ -24,9 +24,27 @@ write packages
 Click the "Generate Token" button. Save the generated token in a safe location. The token is shown only once.
 
 
+#### How to create a Git repo locally and push it to Github
+create an empty directory
+cd into directory
+create code files
+OR
+npm init quasar
+
+create an empty git repo on Github with same directory name
+echo "# your readme comments" >> README.md
+git init
+git add --all
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/<USER>/<repo_name>.git
+git push -u origin main
+
+
+
 ### Install VSCode:
 sudo snap install --classic code
-
+Within VSCode install the extension Live Server
 
 
 ### Install MySQL
