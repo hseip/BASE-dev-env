@@ -2,6 +2,10 @@
 ### Install Git
 Open the terminal.
 git --version
+
+if git does not exist on the local machine then install it. Find instructions here: https://www.atlassian.com/git/tutorials/install-git
+
+
 sudo apt install git
 git config --global user.name "FIRST_NAME LAST_NAME"
 git config --global user.email "MY_NAME@example.com"
