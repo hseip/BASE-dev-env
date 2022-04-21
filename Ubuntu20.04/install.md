@@ -23,6 +23,11 @@ Follow download and instructions: https://ubuntu.com/wsl
 
 
 ## Install DEV on Ubuntu 20.04
+Install Ubuntu 20.04  
+update O/S:  
+sudo apt-get update  
+sudo apt-get upgrade  
+
 
 ### Install Google Chrome
 Instructions: https://linuxconfig.org/how-to-install-google-chrome-web-browser-on-ubuntu-20-04-focal-fossa  
