@@ -1,14 +1,4 @@
-## Install DEV on Ubuntu 20.04
-### Install Git
-Open the terminal.
-git --version
-
-if git does not exist on the local machine then install it. Find instructions here: https://www.atlassian.com/git/tutorials/install-git
-
-
-sudo apt install git
-git config --global user.name "FIRST_NAME LAST_NAME"
-git config --global user.email "MY_NAME@example.com"
+## Project preparation
 
 ### Github
 Create a Github account at github.com
@@ -22,6 +12,28 @@ repo
 write packages
 
 Click the "Generate Token" button. Save the generated token in a safe location. The token is shown only once.
+
+
+
+## Pre-install Windows
+Install Windows Subsystem. After installing WSL follow instructions for installing on Ubuntu 20.04
+Follow download and instructions: https://ubuntu.com/wsl
+
+
+
+
+## Install DEV on Ubuntu 20.04
+### Install Git
+Open the terminal.
+git --version
+
+if git does not exist on the local machine then install it. Find instructions here: https://www.atlassian.com/git/tutorials/install-git
+
+
+sudo apt install git
+git config --global user.name "FIRST_NAME LAST_NAME"
+git config --global user.email "MY_NAME@example.com"
+
 
 
 #### How to create a Git repo locally and push it to Github
@@ -44,7 +56,9 @@ git push -u origin main
 
 ### Install VSCode:
 sudo snap install --classic code
-Within VSCode install the extension Live Server
+Within VSCode install the extensions: 
+Prettier
+Live Server
 
 
 ### Install MySQL

@@ -9,9 +9,5 @@ Follow the instructions:
 https://www.freecodecamp.org/news/how-to-download-and-install-xcode/
 
 
-
-
-
-
 Install Git
 https://www.atlassian.com/git/tutorials/install-git
